@@ -5,7 +5,6 @@ class AnimalsClass:
         return dog
     
     def cat(self):
-        
         cat=3
         return cat
     
@@ -15,7 +14,6 @@ class AnimalsClass:
         
     def run(self):
         total=self.dog()+self.cat()+self.mouse()
-
         print(f"dog={self.dog()},cat={self.cat()},mouse={self.mouse()},total={total}")
 
 AnimalsClass().run()
